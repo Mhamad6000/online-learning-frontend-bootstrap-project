@@ -1,0 +1,10 @@
+body::before{
+    content: "";
+    display: block;
+    height: 60px;
+}
+@media screen and (min-width:768px) {
+    .fifty-percent{
+        width: 60%;
+    }
+}
